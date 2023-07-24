@@ -1,0 +1,47 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: storybook-dcic-demo@0.1.0
+npm ERR! Found: @babel/core@7.21.8
+npm ERR! node_modules/@babel/core
+npm ERR!   peer @babel/core@">=7.11.0" from @babel/eslint-parser@7.21.8
+npm ERR!   node_modules/@babel/eslint-parser
+npm ERR!     @babel/eslint-parser@"^7.16.3" from eslint-config-react-app@7.0.1
+npm ERR!     node_modules/eslint-config-react-app
+npm ERR!       eslint-config-react-app@"^7.0.1" from react-scripts@5.0.1
+npm ERR!       node_modules/react-scripts
+npm ERR!         react-scripts@"5.0.1" from the root project
+npm ERR!         1 more (@storybook/preset-create-react-app)
+npm ERR!   peer @babel/core@"^7.0.0" from @babel/helper-compilation-targets@7.21.5
+npm ERR!   node_modules/@babel/helper-compilation-targets
+npm ERR!     @babel/helper-compilation-targets@"^7.21.5" from @babel/core@7.21.8
+npm ERR!     @babel/helper-compilation-targets@"^7.17.7" from @babel/helper-define-polyfill-provider@0.3.3
+npm ERR!     node_modules/@babel/helper-define-polyfill-provider
+npm ERR!       @babel/helper-define-polyfill-provider@"^0.3.3" from babel-plugin-polyfill-corejs2@0.3.3
+npm ERR!       node_modules/babel-plugin-polyfill-corejs2
+npm ERR!         babel-plugin-polyfill-corejs2@"^0.3.3" from @babel/plugin-transform-runtime@7.21.4
+npm ERR!         node_modules/@babel/plugin-transform-runtime
+npm ERR!         1 more (@babel/preset-env)
+npm ERR!       2 more (babel-plugin-polyfill-corejs3, babel-plugin-polyfill-regenerator)
+npm ERR!     4 more (@babel/plugin-proposal-object-rest-spread, ...)
+npm ERR!   113 more (@babel/helper-create-class-features-plugin, ...)
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! dev @storybook/react-webpack5@"7.1.0" from the root project
+npm ERR! 
+npm ERR! Conflicting peer dependency: @babel/core@7.22.9
+npm ERR! node_modules/@babel/core
+npm ERR!   peerOptional @babel/core@"^7.22.0" from @storybook/react-webpack5@7.1.0
+npm ERR!   node_modules/@storybook/react-webpack5
+npm ERR!     dev @storybook/react-webpack5@"7.1.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! C:\Users\sangari.achary\AppData\Local\npm-cache\_logs\2023-07-23T01_26_37_371Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\sangari.achary\AppData\Local\npm-cache\_logs\2023-07-23T01_26_37_371Z-debug-0.log
